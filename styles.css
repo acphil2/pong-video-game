@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	height: 100vh;
+	background: rgb(87,23,1);
+	background: linear-gradient(185deg, rgba(87,23,1,1) 37%, rgba(119,83,30,1) 76%, rgba(22,14,3,1) 96%);
+	margin-top: 40px;
+
+}
+
+#game {
+	width: 400px;
+	height: 500px;
+	border: 10px solid antiquewhite;
+	margin: auto;
+	background: rgb(153,212,255);
+	background: linear-gradient(0deg, rgba(153,212,255,1) 0%, rgba(4,2,92,1) 100%);
+	overflow: hidden;
+}
+
+#character {
+	width: 20px;
+	height: 20px;
+	background: rgb(138,0,18);
+	background: linear-gradient(173deg, rgba(138,0,18,1) 37%, rgba(255,187,3,1) 100%);
+	border: 1px solid navy;
+	border-radius: 50%;
+	position: relative;
+	top: 440px;
+	left: 190px;
+	z-index: 100000;
+}
+
+.block {
+	width: 400px;
+	height: 20px;
+	background-color: white;
+	opacity: 0.5;
+	position: relative;
+	top: 100px;
+	margin-top: -20px;
+}
+
+.hole {
+	width: 40px;
+	height: 20px;
+	background-color: white;
+	opacity: 0.25;
+	position: relative;
+	top: 100px;
+	margin-top: -20px;
+}
+
+
+
